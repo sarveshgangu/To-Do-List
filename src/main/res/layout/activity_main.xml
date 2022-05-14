@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="MAIN MENU"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        tools:ignore="InvalidId">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/Viewtasks"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu"
+        android:shadowColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:text="VIEW TASK"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:padding="2dp"
+        android:textSize="30sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Addtasks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Viewtasks"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:text="ADD TASK"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/View_Lists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/Addtasks"
+        android:layout_marginTop="40dp"
+        android:text="VIEW LIST"
+        android:padding="2dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Add_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/View_Lists"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:text="ADD LIST"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp">
+
+    </Button>
+
+
+</RelativeLayout>

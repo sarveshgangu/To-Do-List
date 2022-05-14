@@ -1,0 +1,57 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <CheckBox
+            android:id="@+id/todoCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/holo_blue_dark"
+            android:paddingStart="8dp"
+            tools:text="Go to the market and bring vegetables immediately today." />
+
+        <TextView
+            android:id="@+id/due"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/todoCheckBox"
+            android:text="Due:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/todoCheckBox"
+            android:layout_alignParentEnd="true"
+            android:text="date,time"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/due"
+            android:text="Descrition"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
